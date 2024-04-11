@@ -1,0 +1,6 @@
+print("educative".endswith('ve'))
+print("educative".find('e'))
+print("educative".rfind('e'))
+print("educative".count('e'))
+print("educative".replace('e','..E..'))
+print("educative".startswith('edu'))
