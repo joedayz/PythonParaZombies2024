@@ -1,3 +1,4 @@
+# ESto es una mala practica de programacion, ya que estamos exponiendo los atributos de la clase
 class User:
           def __init__(self, userName=None, password=None):
                     self.userName = userName

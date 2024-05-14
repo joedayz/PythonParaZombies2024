@@ -4,16 +4,25 @@
 
 
 class Student:
-    def setName(self):
-        pass
+    __name = None 
+    __rollNumber = None
+    
+    def setName(self, name):
+        self.__name = name 
 
     def getName(self):
-        pass
+        return self.__name
 
-    def setRollNumber(self):
-        pass
+    def setRollNumber(self, rollNumber):
+        self.__rollNumber = rollNumber
 
     def getRollNumber(self):
-        pass
+        return self.__rollNumber
     
 # create objetos Student y prueba todos esos metodos    
+
+leo = Student()
+leo.setName("Leo")
+print("Name = ", leo.getName())
+leo.setRollNumber(123)
+print("Roll Number = ", leo.getRollNumber())
