@@ -4,3 +4,5 @@ print(type(x))
 
 x = "PERU"
 print(type(x))
+
+
